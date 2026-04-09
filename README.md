@@ -1,7 +1,7 @@
 # Shashi Shekhar Dixit — Portfolio V2
 ### Brutalist Terminal Design
 
-A completely redesigned portfolio with a **Brutalist Neomorphic Terminal** aesthetic.
+A completely redesigned portfolio with a Brutalist Neomorphic Terminal aesthetic.
 
 ---
 
@@ -10,9 +10,9 @@ A completely redesigned portfolio with a **Brutalist Neomorphic Terminal** aesth
 | Element | Choice |
 |---------|--------|
 | Palette | Charcoal `#0a0a08` + Electric Lime `#c8f135` + Blood Orange `#ff5722` + Bone `#f0ede4` |
-| Display font | **Bebas Neue** (impact headers) |
-| Accent font | **DM Serif Display** (italic contrast) |
-| Body/Code font | **Space Mono** (terminal feel) |
+| Display font | Bebas Neue (impact headers) |
+| Accent font | DM Serif Display (italic contrast) |
+| Body/Code font | Space Mono (terminal feel) |
 | Cursor | Custom square magnetic cursor with ring |
 | Texture | Scanline overlay + SVG noise grain |
 | Cards | Clip-path parallelogram buttons, square corners, 1px borders |
@@ -23,22 +23,22 @@ A completely redesigned portfolio with a **Brutalist Neomorphic Terminal** aesth
 
 | Feature | Description |
 |---------|-------------|
-| **Glitch text** | CSS keyframe glitch effect on hero name |
-| **Scanline overlay** | CRT-style repeating gradient on body |
-| **Noise grain** | SVG turbulence noise layer at 3% opacity |
-| **Magnetic cursor** | Square dot + ring cursor, circular on hover |
-| **Scroll progress bar** | 2px lime line at top tracking scroll % |
-| **Live clock** | Real-time HH:MM:SS ticking in the navbar center |
-| **Marquee ticker** | Infinite scrolling tech stack marquee band |
-| **Typewriter terminal** | Animated bash terminal in About section |
-| **3D tilt cards** | `perspective + rotateX/Y` on project cards |
-| **Skill radar chart** | SVG hexagonal spider chart with animation |
-| **Dashed timeline** | Diamond dots + dashed vertical line for Experience |
-| **Clip-path buttons** | Parallelogram-shaped CTA buttons |
-| **Intersection reveals** | Fade-up scroll reveal on every section |
-| **AI Chatbot** | Terminal-styled Claude-powered chat widget |
-| **AI Message Generator** | Personalized recruiter outreach generator |
-| **Section counter labels** | 01–10 numbered section labels |
+| Glitch text | CSS keyframe glitch effect on hero name |
+| Scanline overlay | CRT-style repeating gradient on body |
+| Noise grain | SVG turbulence noise layer at 3% opacity |
+| Magnetic cursor | Square dot + ring cursor, circular on hover |
+| Scroll progress bar | 2px lime line at top tracking scroll % |
+| Live clock | Real-time HH:MM:SS ticking in the navbar center |
+| Marquee ticker | Infinite scrolling tech stack marquee band |
+| Typewriter terminal | Animated bash terminal in About section |
+| 3D tilt cards | `perspective + rotateX/Y` on project cards |
+| Skill radar chart | SVG hexagonal spider chart with animation |
+| Dashed timeline | Diamond dots + dashed vertical line for Experience |
+| Clip-path buttons | Parallelogram-shaped CTA buttons |
+| Intersection reveals | Fade-up scroll reveal on every section |
+| AI Chatbot | Terminal-styled Claude-powered chat widget |
+| AI Message Generator | Personalized recruiter outreach generator |
+| Section counter labels | 01–10 numbered section labels |
 
 ---
 
@@ -119,12 +119,12 @@ npm run preview
 
 ## 🤖 AI Features Note
 
-Both AI features call the Anthropic API. When running **outside** the Claude.ai artifact environment, add your API key:
+Both AI features call the Anthropic API. When running outside the Claude.ai artifact environment, add your API key:
 
 ```js
 headers: {
   "Content-Type": "application/json",
-  "x-api-key": "YOUR_API_KEY",
+  "x-api-key": "API_KEY",
   "anthropic-version": "2023-06-01",
   "anthropic-dangerous-direct-browser-access": "true",
 }
