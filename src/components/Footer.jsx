@@ -5,7 +5,7 @@ export default function Footer() {
 
       <div style={{ textAlign: "center" }}>
         <div className="footer-copy">
-          Designed &amp; built by Shashi Shekhar Dixit — SRMCEM Lucknow, 2025
+          Designed &amp; built by Shashi Shekhar Dixit — SRMCEM Lucknow, 2026
         </div>
         <div
           className="footer-stack"
