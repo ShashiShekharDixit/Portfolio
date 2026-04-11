@@ -8,7 +8,7 @@ export default function Hero() {
     <section id="hero">
       <div className="hero-wrap">
         <div className="hero-eyebrow">
-          Available for Opportunities
+          Available for Opportunities of all Tech Roles
         </div>
 
         <h1 className="hero-main">
